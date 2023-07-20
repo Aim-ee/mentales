@@ -1,0 +1,107 @@
+<!-- DOCTYPE - Declaración de archivo tipo HTML-->
+<!DOCTYPE html>
+<!-- lang Lenguaje del sitio -->
+<html lang="esp">
+<!-- Head (Metadata) - infar para el navegador-->
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trastornos mentales</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<!--body - Lo que ve el usuarix -->
+<body>
+    <main>
+        <h1 class="titulo">Trastornos Mentales</h1>
+        <div>
+            <a href="#depresion">Depresión</a>
+            <a href="#personalidad">Personalidad</a>
+            <a href="#esquizofrenia">Esquizofrenia</a>
+        </div>
+        <!-- IMAGEN A TRAVÉS DE LA WEB-->
+        <img class="imagen1" src="https://www.nationalgeographic.com.es/medio/2023/03/28/las-enfermedades-mentales-aceleran-el-envejecimiento_5dd1dbb9_230328134856_1280x746.jpg" alt="Trastornos">
+        <!-- br - SIGUIENTE RENGLÓN-->
+        <br>
+        <!-- IMAGEN DESDE COMPUTADORA (/)-->
+        <img src="/images/trastornos.jpg" alt="tr">
+        
+        <div>
+            <!--Create lists-->
+            <h3>Top de trastornos mentales </h3>
+            <ol>
+                <li>Depresión</li>
+                <li>Trastornos de ansiedad</li>
+                <li>Trastorno bipolar</li>
+                <li>Trastorno de estrés postraumático</li>
+                <li>Esquizofrenia</li>
+                <li>Trastornos del comportamiento alimentario</li>
+                <li>Trastornos del comportamiento disruptivo y disocial</li>
+                <li>Trastornos del semidesarrollo</li>
+
+            </ol>
+            <!-- LISTAS NO ORDENADAS-->
+            <h3>¿Cómo cuidar de tu salud mental?</h3>
+            <ul>
+                <li>Ten una red de apoyo</li>
+                <li>Evita el sedentarismo</li>
+                <li>Aliméntate bien</li>
+                <li>Descansa bien</li>
+                <li>Crear rutinas balanceadas</li>
+                <li>Ve a terapia si es posible</li>
+            </ul>
+        </div>
+        <!--JUMP LINE-->
+        <hr>
+        <div>
+            <h2 id="depresion">Depresión</h2>
+            <p>
+                La depresión es una enfermedad que se caracteriza por una tristeza persistente y por la pérdida de interés en las actividades con las que normalmente se disfruta, así como por la incapacidad para llevar a cabo las actividades cotidianas, durante al menos dos semanas.
+                Grupo de afecciones asociadas a los cambios de humor de una persona, como la depresión o el trastorno bipolar.
+                TIPOS MÁS COMUNES
+            </p>
+
+            <h2 id="personalidad">Personalidad Narcisista</h2>
+            <p>
+                Trastorno en el que una persona tiene un sentido exagerado de egocentrismo.
+                El trastorno de personalidad narcisista es más frecuente en los hombres. La causa no se conoce con exactitud, pero puede implicar una combinación de factores genéticos y ambientales
+                Los síntomas incluyen una necesidad excesiva de recibir admiración, indiferencia con respecto a los sentimientos de los otros, intolerancia a la crítica y sentimiento de que los demás le deben algo.
+                El trastorno debe ser diagnosticado por un profesional. El tratamiento consiste en la terapia conversacional.
+            </p>
+
+            <h2 id="esquizofrenia">Esquizofrenia</h2>
+            <p>
+                Trastorno que afecta la capacidad de una persona para pensar, sentir y comportarse de manera lúcida.
+                Se desconoce la causa exacta de la esquizofrenia, pero es posible que tenga que ver con una combinación de factores genéticos y ambientales y de la alteración de las sustancias químicas y las estructuras del cerebro
+                La esquizofrenia se caracteriza por pensamientos o experiencias que parecen estar desconectados de la realidad, habla o comportamiento desorganizados y disminución de la participación en las actividades cotidianas. También pueden presentarse dificultades en la concentración y la memoria.
+                El tratamiento suele ser de por vida e incluir una combinación de medicamentos, psicoterapia y servicios de cuidado especialmente coordinados.
+            </p>
+        </div>
+       
+        <a href="https://www.nimh.nih.gov/health/publications/espanol/la-esquizofrenia#:~:text=%C2%BFQu%C3%A9%20es%20la%20esquizofrenia%3F,ellas%2C%20sus%20familiares%20y%20amigos.">Leer más</a>
+
+         <!--form: create a form--> 
+        <div>
+            <form action="/enviar respuesta">
+                <!--BOTÓN DE RADIO-->
+                <p>¿Cuántas hora duermes en la noche?</p>
+                <!--label: option for the form answers, only one answer type=radio, multiple answers== checkbox-->
+                <label for="pocas">
+                    <input type="radio" name="sueño"> 4-6 horas
+                </label>
+                <label for="normal">
+                    <input type="radio" name="sueño"> 6-8 horas
+                </label>
+                <label for="mucho">
+                    <input type="radio" name="sueño"> + de 8 horas
+                </label>
+
+            </form>
+
+        </div>
+
+    </main>
+</body>
+</html> 

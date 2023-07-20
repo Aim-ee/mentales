@@ -1,0 +1,28 @@
+body {
+    background-color: #A77F76;
+    color: aqua;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: larger;
+}
+
+.titulo{
+color: beige;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2{
+    color: blueviolet;
+}
+
+.imagen1{
+    width: 500px;
+}
+
+img{
+    width: 500px;
+}
+/*
+selector {
+    propiedad: valor;
+}
+*/
